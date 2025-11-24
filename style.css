@@ -195,7 +195,20 @@
         .contact-info .details {
             font-size: 1rem;
             color: #333;
-            font-weight: 600;
+            font-weight: 500;
+        }
+        .contact-button {
+        display: inline-block;
+        text-decoration: none;
+        font-weight: 500;
+        color: #333;
+        padding: 0px 0px;
+        border-radius: 8px;
+        transition: 0.2s;
+        }
+
+        .contact-button:hover {
+        transform: translateY(-1px);
         }
 
         .contact-item:nth-child(1) { animation-delay: 0.1s; }
@@ -639,4 +652,4 @@
                 font-size: 0.8rem;
             }
         }
-</style>
+    </style>
